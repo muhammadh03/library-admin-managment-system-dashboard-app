@@ -1,0 +1,70 @@
+.container {
+    /* background-color: #dad6d6; */
+    background-color: #fff;
+    /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color];*/
+    box-shadow: rgba(18, 18, 19, 0.1) 0px 15px 15px -10px;
+    color: #beb5b5;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentsOne {
+    /* margin-left: 20px; */
+    padding-left: 20px;
+    align-items: center;
+    justify-content: start;
+}
+
+.contentsTwo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* margin-right: 10px; */
+    padding-right: 10px;
+}
+
+.employee {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.employee h3, .date h5 {
+    margin: 0px ;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.alert i, .massage i {
+    font-size: 18px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.adminName h4, p {
+    display: inline;
+    margin: 0px 15px 0px 0px;
+}
+
+/* @media only screen and (max-width: 767.98px) {
+    .notification {
+        display: ;
+    }
+} */

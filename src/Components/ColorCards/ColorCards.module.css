@@ -1,0 +1,29 @@
+.container {
+    /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color];*/
+    box-shadow: rgba(73, 73, 79, 0.2) 0px 3px 29px 5px;
+    border-radius: 5px;
+    width: 198px;
+    height: 80px;
+    color: #efecec;
+    margin: 13px;
+}
+
+.contents {
+    padding: 21px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textOne {
+    margin: 0px;
+    font-weight: 400;
+}
+
+.textTwo {
+    font-weight: 700;
+}
+
+.iconTwo {
+    cursor: pointer;
+}
